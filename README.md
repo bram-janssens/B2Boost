@@ -1,5 +1,5 @@
 # B2Boost
-Functions for the academic B2Boost study (currently under review and under active development).
+Functions for the academic B2Boost study: B2Boost: Instance-dependent profit-driven modelling of B2B churn (Bram Janssens, Matthias Bogaert, Astrid Bagué, Dirk Van den Poel; currently under review and under active development).
 
 The currently available functions are:
 
