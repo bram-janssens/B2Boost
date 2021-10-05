@@ -1,5 +1,6 @@
 import numpy as np
 import xgboost as xgb
+import scipy.stats as st
 
 beta_dist_s = st.beta.pdf(np.arange(0,1,0.004), 6, 14)
 
