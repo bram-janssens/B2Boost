@@ -1,7 +1,7 @@
 # B2Boost
 Functions for the academic B2Boost study (currently under review and under active development).
 
-The currently possible functions are:
+The currently available functions are:
 
 EMPB_validation: validate using the EMPB metric developed for B2B churn
 
