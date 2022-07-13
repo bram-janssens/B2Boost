@@ -3,6 +3,8 @@ import xgboost as xgb
 import scipy.stats as st
 
 beta_dist_s = st.beta.pdf(np.arange(0,1,0.004), 6, 14)
+possible_gamma = np.arange(0,1,0.004)
+beta_dist_s = beta_dist_s*possible_gamma*0.004
 
 def EMPB_validation(predictions, true, clv,  f = 15, delta = 0.05):
     
