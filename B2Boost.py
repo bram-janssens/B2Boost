@@ -18,7 +18,7 @@ def EMPB_validation(predictions, true, clv,  f = 15, delta = 0.05):
         emp = 0
         i = 0
         for contact in contacted:
-            if contact==1: emp += sum((beta_dist_s*0.004*((1-delta)*clvs[clvs.index[i]])-f))  
+            if contact==1: emp += sum(beta_dist_s*0.004*((1-delta)*clvs[clvs.index[i]]-f))
             else: emp += -f-delta*clvs[clvs.index[i]]
             i += 1    
         result.append(emp)
