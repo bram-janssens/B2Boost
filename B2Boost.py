@@ -9,7 +9,7 @@ beta_dist_s = beta_dist_s*possible_gamma*0.004
 def EMPB_validation(predictions, true, clv,  f = 15, delta = 0.05):
     
     inds = np.flip(predictions.argsort())
-    #empc
+
     result = []
     for top_ratio in np.arange(0,1,0.005):
         #inds = np.flip(predictions.argsort())
@@ -23,9 +23,7 @@ def EMPB_validation(predictions, true, clv,  f = 15, delta = 0.05):
             i += 1    
         result.append(emp)
     emp = np.max(result) 
-   
-    
-    #emp = empc_predefined_s(clv, true, predictions)
+  
     return(emp)
 
 def b2boost(dtrain: xgb.DMatrix, kBoostRound,gammab2b, lr, clv_train, gamma = 0.3,  f = 15, delta = 0.05): 
