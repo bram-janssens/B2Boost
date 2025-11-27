@@ -8,3 +8,7 @@ EMPB_validation: validate using the EMPB metric developed for B2B churn
 VerbrakenBoost: cost-sensitive extension of XGBoost which weights are based upon the EMPC measure from https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6165289.
 
 B2Boost: instance-dependent cost-sensitive extension of XGBoost which weights are based upon the EMPB measure.
+
+## License
+
+This project is licensed under the [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html).
